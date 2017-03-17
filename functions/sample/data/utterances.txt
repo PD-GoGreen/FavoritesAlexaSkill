@@ -1,5 +1,39 @@
-HelloIntent Hello
 
-GreetByNameIntent my name is {name}
+FavoritesLaunchIntent load favorites
+FavoritesLaunchIntent launch favorites
+FavoritesLaunchIntent begin favorites
+FavoritesLaunchIntent start favorites
 
-GetQuestionIntent ask a question
+SetMyFavoritesIntent set my favorites
+SetMyFavoritesIntent set favorites
+SetMyFavoritesIntent update my favorites
+SetMyFavoritesIntent insert my favorites
+SetMyFavoritesIntent add my favorites
+
+GetMyFavoritesIntent get my favorites
+GetMyFavoritesIntent get favorites
+GetMyFavoritesIntent what are my favorites
+GetMyFavoritesIntent what are my favorites
+GetMyFavoritesIntent give my favorites
+GetMyFavoritesIntent give favorites
+GetMyFavoritesIntent say favorites
+
+SetMyFavoritesColor my favorite color is {color}
+SetMyFavoritesColor my favorite color {color}
+
+SetMyFavoritesFood my favorite food is {food}
+SetMyFavoritesFood my favorite food {food}
+
+GetMyFavoritesColor what is my favorite color
+GetMyFavoritesColor get my favorite color
+GetMyFavoritesColor give my favorite color
+GetMyFavoritesColor give me my favorite color
+
+GetMyFavoritesFood what is my favorite food
+GetMyFavoritesFood get my favorite food
+GetMyFavoritesFood give my favorite food
+GetMyFavoritesFood give me my favorite food
+
+AMAZON.HelpIntent I don't know what to do
+AMAZON.HelpIntent I don't know
+AMAZON.HelpIntent can you help

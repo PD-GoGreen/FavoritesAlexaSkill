@@ -1,9 +1,4 @@
 {
-  "HELLO" : {
-    "label" : "HELLO",
-    "speech" : "Hello Favorites, to begin, say what are my favourites?",
-    "reprompt" : "Are you there?"
-  },
 
   "LAUNCH" : {
     "label" : "LAUNCH",
@@ -41,12 +36,6 @@
     "reprompt" : "Are you there?"
   },
 
-  "GREETING" : {
-    "label" : "HELLO",
-    "speech" : "Hello, my name is %%NAME%%",
-    "reprompt" : "Are you there?"
-  },
-
     "GOODBYE" : {
     "label" : "GOODBYE",
     "speech" : "Bye, have a great day",
@@ -56,6 +45,6 @@
    "UNIDENTIFIED": {
     "label" : "UNIDENTIFIED",
     "speech" : "Sorry, I didn't get what you mean",
-    "reprompt" : "Are you there? What can I do for you? "   	
+    "reprompt" : "Are you there? What can I do for you? "     
    }
 }

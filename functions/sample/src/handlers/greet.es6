@@ -2,7 +2,7 @@ import voicelabsSdk from "voicelabs";
 import { render } from "mustache";
 import get from "lodash.get";
 
-import { HELLO, LAUNCH, HELP, COLOR, FAVORITECOLOR, FOOD, FAVORITEFOOD, GREETING, GOODBYE, UNIDENTIFIED } from "../../data/speech";
+import { LAUNCH, HELP, COLOR, FAVORITECOLOR, FOOD, FAVORITEFOOD, GREETING, GOODBYE, UNIDENTIFIED } from "../../data/speech";
 
 // Track events using Voicelabs: http://voicelabs.co/
 // Create a token if you want to track events (optional)
@@ -26,8 +26,8 @@ export const handler = {
             speech =  "Welcome to Favorites. "+ HELP.speech;
 
         }
-        const reprompt = "Are you still there? You can always ask for help. "
-        this.emit(":ask", speech, reprompt );
+        //const reprompt = "Are you still there? You can always ask for help. "
+        this.emit(":ask", speech, LAUNCH.reprompt );
     },
 
 

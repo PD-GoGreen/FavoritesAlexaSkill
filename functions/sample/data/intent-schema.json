@@ -1,19 +1,49 @@
 {
-  "intents": [{
-    "intent": "HelloIntent"
-  }, {
-    "intent": "AMAZON.HelpIntent"
-  }, {
-    "intent": "AMAZON.StopIntent"
-  }, {
-    "intent": "AMAZON.CancelIntent"
-  }, {
-    "intent": "GreetByNameIntent",
-    "slots": [{
-      "name": "name",
-      "type": "NAMES"
-    }]
-  },{
-    "intent": "GetQuestionIntent"
-  }]
+  "intents": [
+    {
+      "intent": "FavoritesLaunchIntent"
+    },
+    {
+      "intent": "SetMyFavoritesIntent"
+    },
+    {
+      "intent": "GetMyFavoritesIntent"
+    },
+    {
+      "intent": "SetMyFavoritesColor",
+      "slots": [
+        {
+          "name": "color",
+          "type": "AMAZON.Color"
+        }
+      ]
+    },
+    {
+      "intent": "SetMyFavoritesFood",
+      "slots": [
+        {
+          "name": "food",
+          "type": "AMAZON.Food"
+        }
+      ]
+    },
+    {
+      "intent": "GetMyFavoritesColor"
+    },
+    {
+      "intent": "GetMyFavoritesFood"
+    },
+    {
+      "intent": "Unhandled"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
 }
