@@ -1,0 +1,17 @@
+{
+  "name": "Pradnya_sample",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "handler": "lib.default",
+  "role": "arn:aws:iam::293313708031:role/sample_lambda_function",
+  "hooks": {
+    "build": "npm install --production && ../../node_modules/.bin/webpack --config ../../webpack.config.js --bail",
+    "clean": "rm -rf lib node_modules"
+  },
+"environment": {
+   "APP_ID": "amzn1.ask.skill.8fc1d849-675a-4966-8db2-987c424db84c",
+   "TABLE_NAME": "Pradnya_favoritesSkillUsers"
+},
+  "runtime": "nodejs4.3"
+}

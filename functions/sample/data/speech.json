@@ -1,0 +1,61 @@
+{
+  "HELLO" : {
+    "label" : "HELLO",
+    "speech" : "Hello Favorites, to begin, say what are my favourites?",
+    "reprompt" : "Are you there?"
+  },
+
+  "LAUNCH" : {
+    "label" : "LAUNCH",
+    "speech" : "Welcome back to Favorites, what can I do for you?",
+    "reprompt" : "Are you there?"
+  },
+
+  "HELP" : {
+    "label" : "HELP",
+    "speech" : "To set your favorites, say  set my favorites. To retrive favorites, say what are my favorites? You can ask for specific, by saying what is my favorite color or food? You can also say stop or cancel to exit.",
+    "reprompt" : "Are you there?"
+  },
+
+  "COLOR" : {
+    "label" : "COLOR",
+    "speech" : "To give me your favorite color, say my favorite color is ",
+    "reprompt" : "Are you there? To give me your favorite color, say my favorite color is "
+  },
+
+  "FAVORITECOLOR" : {
+    "label" : "FAVORITECOLOR",
+    "speech" : "Your favorite color is %%COLOR%%. ",
+    "reprompt" : "Are you there?"
+  },
+
+  "FOOD" : {
+    "label" : "FOOD",
+    "speech" : "To give me your favorite food, say my favorite food is ",
+    "reprompt" : "Are you there? To give me your favorite food, say my favorite food is "
+  },
+
+  "FAVORITEFOOD" : {
+    "label" : "FAVORITEFOOD",
+    "speech" : "Your favorite food is %%FOOD%%. ",
+    "reprompt" : "Are you there?"
+  },
+
+  "GREETING" : {
+    "label" : "HELLO",
+    "speech" : "Hello, my name is %%NAME%%",
+    "reprompt" : "Are you there?"
+  },
+
+    "GOODBYE" : {
+    "label" : "GOODBYE",
+    "speech" : "Bye, have a great day",
+    "reprompt" : "Are you there?"
+  },
+
+   "UNIDENTIFIED": {
+    "label" : "UNIDENTIFIED",
+    "speech" : "Sorry, I didn't get what you mean",
+    "reprompt" : "Are you there? What can I do for you? "   	
+   }
+}
